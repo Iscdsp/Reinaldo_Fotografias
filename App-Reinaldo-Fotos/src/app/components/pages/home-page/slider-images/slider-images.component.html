@@ -1,0 +1,17 @@
+<div class="slick-wrapper" id="wrapper">
+  <ngx-slick-carousel
+    class="carousel"
+    #slickModal="slick-carousel"
+    [config]="slideConfig"
+    (init)="slickInit($event)"
+    (breakpoint)="breakpoint($event)"
+    (afterChange)="afterChange($event)"
+    (beforeChange)="beforeChange($event)"
+  >
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide img-slide">
+      <img src="{{ slide.img }}" alt="" width="100%" />
+    </div>
+  </ngx-slick-carousel>
+  <button (click)="slickModal.slickGoTo(2)" class="slick-prev">Previous</button>
+  <button (click)="slickModal.unslick()" class="slick-next">unslick</button>
+</div>

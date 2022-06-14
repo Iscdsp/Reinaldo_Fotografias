@@ -1,0 +1,28 @@
+.container-about-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.title-social-media-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14rem;
+  margin-top: 10rem;
+  height: 10rem;
+}
+
+.bar-social-media {
+  display: block;
+  width: 0%;
+  height: 0rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 1.5rem;
+  border-radius: 10px;
+  transition: 0.4 ease-in-out;
+}
+.expand-bar {
+  animation: expandBar 1s ease-in-out 0.5s both;
+}

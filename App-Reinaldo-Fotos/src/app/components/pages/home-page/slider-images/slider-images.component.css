@@ -1,0 +1,21 @@
+.button {
+  color: #000;
+  background-color: #000;
+}
+.container-button {
+  background: #000;
+}
+.slick-wrapper {
+  cursor: grab;
+  overflow-x: hidden;
+}
+
+.slick-wrapper:active {
+  cursor: grabbing;
+}
+
+.slick-prev,
+.slick-next {
+  color: black !important;
+  display: none !important;
+}

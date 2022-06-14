@@ -1,0 +1,24 @@
+.button-contact {
+  opacity: 1;
+  font-size: 2rem;
+  font-family: "Zector";
+  width: 260px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 2s ease-in-out;
+  animation: twinkleButton 2s ease-in-out infinite;
+}
+
+.button-contact:hover {
+  animation: none;
+  color: #000;
+  font-weight: bold;
+  background-color: #fff;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}

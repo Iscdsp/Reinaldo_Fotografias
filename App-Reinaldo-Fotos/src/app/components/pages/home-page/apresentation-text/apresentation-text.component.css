@@ -1,0 +1,55 @@
+.container-card-text {
+  position: absolute;
+  max-width: 40rem;
+  left: 10%;
+  top: 15%;
+  transform: scale(0);
+  opacity: 0;
+
+  transition: 0.9s;
+}
+.translate {
+  transform: scale(1);
+  opacity: 1;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.h1-apresentation-component:nth-child(1) {
+  display: block;
+  width: 43rem;
+
+  font-size: 4rem;
+}
+.h1-apresentation-component:nth-child(2) {
+  font-size: 4rem;
+  position: relative;
+  bottom: 1.2rem;
+  left: 4.5rem;
+}
+.h1-apresentation-component:nth-child(3) {
+  display: block;
+  position: relative;
+  font-size: 1.7rem;
+  text-align: end;
+  bottom: 1.5rem;
+  left: 3.7rem;
+}
+.tagP-apresentation-component {
+  position: relative;
+  text-align: justify;
+  left: 4.5rem;
+}
+.text-apresentation::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2.35rem;
+  height: 27rem;
+  background-color: #fff;
+  bottom: 0rem;
+  left: 0.3rem;
+}

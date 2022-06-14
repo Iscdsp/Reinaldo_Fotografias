@@ -1,0 +1,17 @@
+<div class="container-home-page">
+  <app-slider-images></app-slider-images>
+  <div class="button-home-page">
+    <app-button-contact-me class="button-home-page"></app-button-contact-me>
+  </div>
+  <section
+    class="container-thumb-images-text-cards"
+    id="thumb-txt"
+    (mousemove)="translateText()"
+  >
+    <app-apresentation-text></app-apresentation-text>
+  </section>
+  <div class="cont-thumbs" (mousewheel)="showThumbImage()">
+    <app-thumb-image-left></app-thumb-image-left>
+    <app-thumb-image-right></app-thumb-image-right>
+  </div>
+</div>

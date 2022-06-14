@@ -1,0 +1,15 @@
+.wrapper-text-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: justify;
+  line-height: 2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 60%;
+}
+.wrapper-text-footer > h1 {
+  font-size: 3rem;
+}
+.wrapper-text-footer > p {
+  font-size: 1.2rem;
+}

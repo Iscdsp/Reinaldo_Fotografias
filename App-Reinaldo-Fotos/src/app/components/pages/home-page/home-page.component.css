@@ -1,0 +1,33 @@
+.container-home-page {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 500px;
+}
+
+.container-thumb-images-text-cards {
+  position: relative;
+  min-height: 150vh;
+  bottom: 5rem;
+}
+.cont-thumbs {
+  position: relative;
+
+  max-width: 1920px;
+  height: 100vh;
+  bottom: 40rem;
+}
+.button-home-page {
+  position: relative;
+  float: right;
+  right: 10%;
+  top: 13rem;
+  z-index: 99;
+}

@@ -1,0 +1,129 @@
+.container-contato {
+  padding: 0% 0%;
+  display: flex;
+  justify-content: space-around;
+  overflow: visible;
+  margin-bottom: 3%;
+}
+.container-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  padding: 2% 3%;
+  max-width: 605px;
+  border-radius: 0%;
+  transition: all 0.5s;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+form label:hover {
+  text-decoration: underline;
+  transform: scale(1.1, 1.1);
+}
+
+.container-form:hover {
+  border: 2px solid #ffffff;
+  border-radius: 3%;
+  box-shadow: 8px 8px 0px #fff;
+}
+.container-form legend {
+  margin: 0 60%;
+  padding: 0 3%;
+  font-size: 30pt;
+}
+
+.container-form form {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+
+form input {
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #ffffff;
+  height: 2.5em;
+  opacity: 1;
+
+  transition: all 0.2s ease-in-out;
+}
+form input,
+label {
+  margin-bottom: 3%;
+}
+
+form input:hover {
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+}
+form input::placeholder {
+  font-size: 0.9em;
+  text-indent: 0.5em;
+  color: #ffffff;
+}
+textarea {
+  width: 99%;
+  margin-top: 1em;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid #ffffff;
+  opacity: 1;
+  border-radius: 10px;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: 0.2s ease-in-out;
+}
+textarea::placeholder {
+  font-size: 1rem;
+  color: #fff;
+}
+
+textarea:hover {
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+}
+.btn {
+  margin-top: 3%;
+  margin-left: 100%;
+  margin-right: -10px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  transition: all 0.1s ease-in;
+  border: 2px solid #ffffff;
+}
+.btn:hover {
+  border: 3px solid #ffffff;
+}
+
+.button {
+  margin-top: 50%;
+  margin-left: 450%;
+  color: #000000;
+  border: none;
+  width: 100px;
+  height: 25px;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  color: #000000;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0 0 5px #ffffff, 0 0 20px #ffffff;
+}
+.hr-1 {
+  margin-left: 0%;
+  margin-top: 18.5px;
+  margin-bottom: -6px;
+  width: 100%;
+  max-width: 2100px;
+}

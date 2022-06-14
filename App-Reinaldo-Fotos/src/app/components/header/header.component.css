@@ -1,0 +1,12 @@
+.container-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5.2rem;
+  border-bottom: 0.05rem solid #fff;
+  gap: 10rem;
+  position: fixed;
+  z-index: 99;
+}

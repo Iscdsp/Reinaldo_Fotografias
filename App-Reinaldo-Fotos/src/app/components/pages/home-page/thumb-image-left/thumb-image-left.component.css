@@ -1,0 +1,92 @@
+/*CSS images of left and right image card!*/
+.container-card-image {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  max-width: 1200px;
+  right: 10%;
+  top: 15%;
+  overflow: hidden;
+  filter: grayscale(0) brightness(1);
+  transition: filter 0.4s ease-in-out;
+  transition: transform 1s ease-in-out, opacity 5s ease-out;
+  transform: translateX(100rem);
+  height: 600px;
+}
+.container-card-images {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  max-width: 1200px;
+  right: 30%;
+  top: 74%;
+  overflow: hidden;
+  filter: grayscale(0) brightness(1);
+  transition: filter 0.4s ease-in-out;
+  transition: transform 1s ease-in-out, opacity 5s ease-out;
+  transform: translateX(-100rem);
+  height: 600px;
+}
+.container-card-images img {
+  filter: none;
+  transition: all 0.4s ease-in-out;
+}
+.container-card-images:hover img {
+  filter: grayscale(1) brightness(0.2);
+}
+.container-card-images:hover .title-text-card-image,
+.container-card-images:hover .text-card-image {
+  transform: translateX(0) translateY(0);
+}
+
+.container-card-image img {
+  filter: none;
+  transition: all 0.4s ease-in-out;
+}
+.show-img-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.container-card-image:hover img {
+  filter: grayscale(1) brightness(0.2);
+}
+
+.container-card-image:hover .title-text-card-image,
+.container-card-image:hover .text-card-image {
+  transform: translateX(0) translateY(0);
+}
+
+.title-text-card-image {
+  position: absolute;
+  display: flex;
+  background-color: aliceblue;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  left: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-13rem);
+  transition: 0.4s ease-in-out;
+  z-index: 99;
+}
+.title-text-card-image > h3 {
+  color: #000;
+}
+.text-card-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+  background-color: aliceblue;
+  padding: 1rem;
+  transform: translateY(6.5rem);
+  transition: 0.4s ease-in-out;
+}
+.text-card-image p {
+  text-align: end;
+  color: #000;
+  font-weight: bold;
+}

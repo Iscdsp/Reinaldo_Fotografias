@@ -1,0 +1,71 @@
+<div class="container-contato">
+  <fieldset class="container-form">
+    <legend class="font-nav">Contato</legend>
+    <form
+      #f="ngForm"
+      (ngSubmit)="onSubmit('#f')"
+      action="./processo.php"
+      method="post"
+      class="form-control"
+    >
+      <label for="iNome">Nome:</label
+      ><input
+        ngModel
+        class="input-form"
+        type="text"
+        name="nNome"
+        id="iNome"
+        size="70"
+        maxlength="50"
+        placeholder="Nome Completo"
+        required
+      />
+      <label for="iEmail">E-mail:</label
+      ><input
+        ngModel
+        class="input-form"
+        type="email"
+        name="nEmail"
+        id="iEmail"
+        size="70"
+        placeholder="seu_email@exemplo.com.br"
+        required
+      />
+      <label for="iTel">Telefone:</label
+      ><input
+        ngModel
+        class="input-form"
+        type="tel"
+        name="nTel"
+        id="iTel"
+        placeholder="(DDD)+(número)"
+        required
+      />
+      <label for="iData">Data do Evento:</label
+      ><input
+        ngModel
+        class="input-form"
+        type="date"
+        name="nData"
+        id="iData"
+        placeholder="Data do eventão!"
+        required
+      />
+
+      <label for="iObs">Observação:<br /></label>
+      <textarea
+        ngModel
+        name="nObs"
+        id="iObs"
+        cols="74"
+        rows="10"
+        required
+        placeholder="informações úteis sobre o evento..."
+      ></textarea>
+
+      <div class="main">
+        <button type="submit" class="button">Enviar</button>
+      </div>
+    </form>
+  </fieldset>
+</div>

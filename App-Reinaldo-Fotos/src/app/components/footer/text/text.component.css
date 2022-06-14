@@ -1,0 +1,23 @@
+.footer-link {
+  position: relative;
+  text-decoration: none;
+  transition: ease-in-out 0.5s;
+}
+.footer-link:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  display: block;
+  width: 87px;
+  height: 3px;
+  top: 1.4rem;
+  background-color: #008000;
+  transition: 0.5s;
+  transform: scale(0);
+}
+.footer-link:hover {
+  color: #008000;
+}
+.footer-link:hover::after {
+  transform: scale(1);
+}

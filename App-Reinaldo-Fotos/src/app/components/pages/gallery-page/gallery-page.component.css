@@ -1,0 +1,29 @@
+.container-gallery-page {
+  width: 100%;
+  min-height: 180vh;
+  padding-top: 10rem;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4% 13% 8%;
+}
+.social-media-espec-page {
+  border: 2px solid #fff;
+  padding: 2.5rem;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.social-media-espec-page:hover {
+  border: 3px solid #fff;
+  box-shadow: 5px 5px 0 #fff;
+}
+.text-social-media-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4% 11% 8% 7%;
+  height: 40rem;
+}
