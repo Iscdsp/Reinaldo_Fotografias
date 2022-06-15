@@ -1,5 +1,4 @@
-import { TemplateFormContactPageModule } from './template-form-contact-page/template-form-contact-page.module';
-import { FormContactPageModule } from './components/pages/contact-page/form-contact-page/form-contact-page.module';
+import { FormContactPageComponent } from './components/pages/contact-page/form-contact-page/form-contact-page.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -34,6 +33,22 @@ import { TitleGalleryPageComponent } from './components/pages/gallery-page/title
 import { ImageCardsGalleryPageComponent } from './components/pages/gallery-page/image-cards-gallery-page/image-cards-gallery-page.component';
 import { BottomTextComponent } from './components/pages/gallery-page/bottom-text/bottom-text.component';
 import { TitleContactPageComponent } from './components/pages/contact-page/title-contact-page/title-contact-page.component';
+import { GalleryBillyAndGabiPageComponent } from './components/pages/gallery-page/gallery-billy-and-gabi-page/gallery-billy-and-gabi-page.component';
+import { GalleryBillyAndGabiAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-billy-and-gabi-album/gallery-billy-and-gabi-album.component';
+import { GalleyCrossfitBox160AlbumComponent } from './components/pages/gallery-page/albums-pages/galley-crossfit-box160-album/galley-crossfit-box160-album.component';
+import { GalleyFemSoccerSantosxCorinthiansAlbumComponent } from './components/pages/gallery-page/albums-pages/galley-fem-soccer-santosx-corinthians-album/galley-fem-soccer-santosx-corinthians-album.component';
+import { GalleyMascSoccerSantosxBragantinoAlbumComponent } from './components/pages/gallery-page/albums-pages/galley-masc-soccer-santosx-bragantino-album/galley-masc-soccer-santosx-bragantino-album.component';
+import { GalleyStudioCasa67AlbumComponent } from './components/pages/gallery-page/albums-pages/galley-studio-casa67-album/galley-studio-casa67-album.component';
+import { GalleyCTCSemMaldadeAlbumComponent } from './components/pages/gallery-page/albums-pages/galley-ctcsem-maldade-album/galley-ctcsem-maldade-album.component';
+import { GalleyManifestacao3JAlbumComponent } from './components/pages/gallery-page/albums-pages/galley-manifestacao3-j-album/galley-manifestacao3-j-album.component';
+import { GalleryManifestacao19JAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-manifestacao19-j-album/gallery-manifestacao19-j-album.component';
+import { GalleryManifestacao29MAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-manifestacao29-m-album/gallery-manifestacao29-m-album.component';
+import { GalleryPadreAnchietaFCAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-padre-anchieta-fc-album/gallery-padre-anchieta-fc-album.component';
+import { GalleryPagodeJuniorAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-pagode-junior-album/gallery-pagode-junior-album.component';
+import { GalleryPhantomBillyAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-phantom-billy-album/gallery-phantom-billy-album.component';
+import { GalleryPulsarFestivalAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-pulsar-festival-album/gallery-pulsar-festival-album.component';
+import { GalleryPracaPalmaresAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-praca-palmares-album/gallery-praca-palmares-album.component';
+import { GalleryXIXVoltaStoAmaroAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-xixvolta-sto-amaro-album/gallery-xixvolta-sto-amaro-album.component';
 
 @NgModule({
   declarations: [
@@ -65,14 +80,25 @@ import { TitleContactPageComponent } from './components/pages/contact-page/title
     ImageCardsGalleryPageComponent,
     BottomTextComponent,
     TitleContactPageComponent,
+    FormContactPageComponent,
+    GalleryBillyAndGabiPageComponent,
+    GalleryBillyAndGabiAlbumComponent,
+    GalleyCrossfitBox160AlbumComponent,
+    GalleyFemSoccerSantosxCorinthiansAlbumComponent,
+    GalleyMascSoccerSantosxBragantinoAlbumComponent,
+    GalleyStudioCasa67AlbumComponent,
+    GalleyCTCSemMaldadeAlbumComponent,
+    GalleyManifestacao3JAlbumComponent,
+    GalleryManifestacao19JAlbumComponent,
+    GalleryManifestacao29MAlbumComponent,
+    GalleryPadreAnchietaFCAlbumComponent,
+    GalleryPagodeJuniorAlbumComponent,
+    GalleryPhantomBillyAlbumComponent,
+    GalleryPulsarFestivalAlbumComponent,
+    GalleryPracaPalmaresAlbumComponent,
+    GalleryXIXVoltaStoAmaroAlbumComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    SlickCarouselModule,
-    FormsModule,
-    TemplateFormContactPageModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, SlickCarouselModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

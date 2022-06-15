@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormContactPageModule } from './form-contact-page.module';
+
 @Component({
   selector: 'app-form-contact-page',
   templateUrl: './form-contact-page.component.html',
