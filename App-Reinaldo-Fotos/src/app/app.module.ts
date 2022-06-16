@@ -1,9 +1,9 @@
-import { FormContactPageComponent } from './components/pages/contact-page/form-contact-page/form-contact-page.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 
+import { FormContactPageComponent } from './components/pages/contact-page/form-contact-page/form-contact-page.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -33,7 +33,7 @@ import { TitleGalleryPageComponent } from './components/pages/gallery-page/title
 import { ImageCardsGalleryPageComponent } from './components/pages/gallery-page/image-cards-gallery-page/image-cards-gallery-page.component';
 import { BottomTextComponent } from './components/pages/gallery-page/bottom-text/bottom-text.component';
 import { TitleContactPageComponent } from './components/pages/contact-page/title-contact-page/title-contact-page.component';
-import { GalleryBillyAndGabiPageComponent } from './components/pages/gallery-page/gallery-billy-and-gabi-page/gallery-billy-and-gabi-page.component';
+
 import { GalleryBillyAndGabiAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-billy-and-gabi-album/gallery-billy-and-gabi-album.component';
 import { GalleyCrossfitBox160AlbumComponent } from './components/pages/gallery-page/albums-pages/galley-crossfit-box160-album/galley-crossfit-box160-album.component';
 import { GalleyFemSoccerSantosxCorinthiansAlbumComponent } from './components/pages/gallery-page/albums-pages/galley-fem-soccer-santosx-corinthians-album/galley-fem-soccer-santosx-corinthians-album.component';
@@ -81,7 +81,7 @@ import { GalleryXIXVoltaStoAmaroAlbumComponent } from './components/pages/galler
     BottomTextComponent,
     TitleContactPageComponent,
     FormContactPageComponent,
-    GalleryBillyAndGabiPageComponent,
+    GalleryBillyAndGabiAlbumComponent,
     GalleryBillyAndGabiAlbumComponent,
     GalleyCrossfitBox160AlbumComponent,
     GalleyFemSoccerSantosxCorinthiansAlbumComponent,

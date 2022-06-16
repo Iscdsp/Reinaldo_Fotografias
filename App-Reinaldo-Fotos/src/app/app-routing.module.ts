@@ -1,3 +1,4 @@
+import { GalleryBillyAndGabiAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-billy-and-gabi-album/gallery-billy-and-gabi-album.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'espec', component: EspecPageComponent },
   { path: 'gallery', component: GalleryPageComponent },
   { path: 'contact', component: ContactPageComponent },
+  { path: 'billyandgaby', component: GalleryBillyAndGabiAlbumComponent },
 ];
 
 @NgModule({
