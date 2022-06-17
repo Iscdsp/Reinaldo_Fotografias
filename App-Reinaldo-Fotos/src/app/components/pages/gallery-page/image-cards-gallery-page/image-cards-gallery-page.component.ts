@@ -13,6 +13,7 @@ export class ImageCardsGalleryPageComponent implements OnInit {
         '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-billy2-glr.jpg',
       title: 'Billy e Gabi',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/billyandgaby',
     },
     {
       image:
