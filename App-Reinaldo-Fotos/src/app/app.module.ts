@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
@@ -49,6 +50,7 @@ import { GalleryPhantomBillyAlbumComponent } from './components/pages/gallery-pa
 import { GalleryPulsarFestivalAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-pulsar-festival-album/gallery-pulsar-festival-album.component';
 import { GalleryPracaPalmaresAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-praca-palmares-album/gallery-praca-palmares-album.component';
 import { GalleryXIXVoltaStoAmaroAlbumComponent } from './components/pages/gallery-page/albums-pages/gallery-xixvolta-sto-amaro-album/gallery-xixvolta-sto-amaro-album.component';
+import { Lightbox, LightboxModule } from 'ngx-lightbox';
 
 @NgModule({
   declarations: [
@@ -82,7 +84,6 @@ import { GalleryXIXVoltaStoAmaroAlbumComponent } from './components/pages/galler
     TitleContactPageComponent,
     FormContactPageComponent,
     GalleryBillyAndGabiAlbumComponent,
-    GalleryBillyAndGabiAlbumComponent,
     GalleyCrossfitBox160AlbumComponent,
     GalleyFemSoccerSantosxCorinthiansAlbumComponent,
     GalleyMascSoccerSantosxBragantinoAlbumComponent,
@@ -98,7 +99,13 @@ import { GalleryXIXVoltaStoAmaroAlbumComponent } from './components/pages/galler
     GalleryPracaPalmaresAlbumComponent,
     GalleryXIXVoltaStoAmaroAlbumComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, SlickCarouselModule, FormsModule],
+  imports: [
+    LightboxModule,
+    BrowserModule,
+    AppRoutingModule,
+    SlickCarouselModule,
+    FormsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
