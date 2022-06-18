@@ -83,6 +83,10 @@ import { Lightbox, LightboxModule } from 'ngx-lightbox';
     BottomTextComponent,
     TitleContactPageComponent,
     FormContactPageComponent,
+<<<<<<< HEAD
+=======
+    GalleryBillyAndGabiAlbumComponent,
+>>>>>>> e03e4bf35ad4c405991f1e8d3fde3d49fb8f6ffa
     GalleryBillyAndGabiAlbumComponent,
     GalleyCrossfitBox160AlbumComponent,
     GalleyFemSoccerSantosxCorinthiansAlbumComponent,
