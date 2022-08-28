@@ -1,70 +1,114 @@
 <div class="container-contato">
   <fieldset class="container-form">
     <legend class="font-nav">Contato</legend>
-    <form
-      #f="ngForm"
-      (ngSubmit)="onSubmit('#f')"
-      action="./processo.php"
-      method="post"
-      class="form-control"
-    >
-      <label for="iNome">Nome:</label
-      ><input
-        ngModel
-        class="input-form"
-        type="text"
-        name="nNome"
-        id="iNome"
-        size="70"
-        maxlength="50"
-        placeholder="Nome Completo"
-        required
-      />
-      <label for="iEmail">E-mail:</label
-      ><input
-        ngModel
-        class="input-form"
-        type="email"
-        name="nEmail"
-        id="iEmail"
-        size="70"
-        placeholder="seu_email@exemplo.com.br"
-        required
-      />
-      <label for="iTel">Telefone:</label
-      ><input
-        ngModel
-        class="input-form"
-        type="tel"
-        name="nTel"
-        id="iTel"
-        placeholder="(DDD)+(número)"
-        required
-      />
-      <label for="iData">Data do Evento:</label
-      ><input
-        ngModel
-        class="input-form"
-        type="date"
-        name="nData"
-        id="iData"
-        placeholder="Data do eventão!"
-        required
-      />
+    <form (ngSubmit)="submit()" [formGroup]="contactForm" #formDir="ngForm">
+      <input type="hidden" name="" formControlName="id" />
+      <div class="input-wrapper">
+        <label for="name">Nome:</label
+        ><input
+          type="text"
+          name="name"
+          id=""
+          size="70"
+          maxlength="50"
+          placeholder="Nome Completo"
+          formControlName="name"
+          required
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="email">E-mail:</label
+        ><input
+          type="email"
+          name="nEmail"
+          id=""
+          size="70"
+          placeholder="seu_email@exemplo.com.br"
+          formControlName="email"
+          required
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="phone">Telefone:</label
+        ><input
+          type="tel"
+          name="phone"
+          id=""
+          placeholder="(DDD)+(número)"
+          formControlName="phone"
+          required
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="dateEvent">Data do Evento:</label
+        ><input
+          type="date"
+          name="dateEvent"
+          id=""
+          placeholder="Data do eventão!"
+          formControlName="dateEvent"
+          required
+        />
+      </div>
 
-      <label for="iObs">Observação:<br /></label>
-      <textarea
-        ngModel
-        name="nObs"
-        id="iObs"
-        cols="74"
-        rows="10"
-        required
-        placeholder="informações úteis sobre o evento..."
-      ></textarea>
+      <div class="input-wrapper">
+        <label for="qntPersons">Qnt de Pessoas:</label>
+        <input
+          type="number"
+          name="qntPersons"
+          id=""
+          formControlName="qntPersons"
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="qntHours">Horas de Evento:</label>
+        <input type="number" name="qntHours" id="" formControlName="qntHours" />
+      </div>
+      <div class="input-wrapper-ambient">
+        <div>
+          <label for="ambient">Ambiente:</label>
+        </div>
+        <div class="wrapper-content-ambient">
+          <div class="radio-text">
+            <label class="local" for="ambientClosed">Fechado</label
+            ><input
+              class="label-input"
+              type="radio"
+              name="ambient"
+              id="ambientClosed"
+              placeholder=""
+              formControlName="ambient"
+              value="Descoberto"
+            />
+          </div>
+          <div class="radio-text">
+            <label class="local" for="ambientOpened">Coberto</label>
+            <input
+              class="label-input"
+              type="radio"
+              name="ambient"
+              id="ambientOpened"
+              value="Coberto"
+              formControlName="ambient"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="input-wrapper">
+        <label for="nObs">Observação:<br /></label>
+        <textarea
+          name="obs"
+          id=""
+          cols="74"
+          rows="10"
+          required
+          placeholder="informações úteis sobre o evento..."
+          formControlName="obs"
+        ></textarea>
+      </div>
 
       <div class="main">
-        <button type="submit" class="button">Enviar</button>
+        <input type="submit" class="button" value="Enviar" />
       </div>
     </form>
   </fieldset>

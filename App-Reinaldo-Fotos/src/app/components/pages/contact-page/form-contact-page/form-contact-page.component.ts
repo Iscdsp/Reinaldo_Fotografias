@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Contact } from 'src/app/Services/contactForm';
 
 @Component({
   selector: 'app-form-contact-page',
@@ -8,6 +10,24 @@ import { Component, OnInit } from '@angular/core';
 export class FormContactPageComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
-  onSubmit(f: any) {}
+  contactForm!: FormGroup;
+
+  ngOnInit(): void {
+    this.contactForm = new FormGroup({
+      id: new FormControl(),
+      name: new FormControl(),
+      email: new FormControl(),
+      phone: new FormControl(),
+      dateEvent: new FormControl(),
+      qntPersons: new FormControl(),
+      qntHours: new FormControl(),
+      ambient: new FormControl(),
+
+      obs: new FormControl(),
+    });
+  }
+
+  submit() {
+    console.log(this.contactForm.value);
+  }
 }

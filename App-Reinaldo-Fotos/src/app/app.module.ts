@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { FormContactPageComponent } from './components/pages/contact-page/form-contact-page/form-contact-page.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
@@ -108,6 +108,7 @@ import { Lightbox, LightboxModule } from 'ngx-lightbox';
     AppRoutingModule,
     SlickCarouselModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
