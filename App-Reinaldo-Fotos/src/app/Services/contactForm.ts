@@ -3,9 +3,9 @@ export interface Contact {
   name: string;
   email: string;
   phone: string;
-  dateEvent?: String;
-  qntPersons?: number;
-  qntHours?: number;
-  ambient?: boolean;
+  dateevent?: any;
+  guests?: number;
+  time?: number;
+  ambient?: string;
   obs?: string;
 }

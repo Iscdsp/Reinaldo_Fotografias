@@ -1,0 +1,36 @@
+.container-album-GaB {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5rem 0 1rem;
+  }
+  .wrapper-img {
+    position: relative;
+    max-height: 360px;
+    overflow: hidden;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: 0.4s ease-in-out;
+  }
+  .wrapper-img:hover {
+    filter: grayscale(0);
+  }
+  .wrapped-title-text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 2;
+    gap: 2rem;
+    max-width: 40%;
+  }
+  .wrapped-title-text h1 {
+    font-size: 2.5rem;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+  

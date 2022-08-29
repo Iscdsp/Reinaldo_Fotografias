@@ -1,1 +1,22 @@
-<p>gallery-manifestacao19-j-album works!</p>
+<div class="title">
+  <div class="wrapped-title-text">
+    <h1 class="font-nav">Manifestação 19J</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quod
+      consectetur reiciendis et, adipisci nobis laudantium incidunt, veritatis
+      dolores non corporis tenetur nam libero ut pariatur aliquam eaque. Earum,
+      porro.
+    </p>
+  </div>
+  <app-social-medias></app-social-medias>
+</div>
+<div class="wrapper-container">
+  <section class="container-album-GaB">
+    <div *ngFor="let image of _album; let i = index">
+      <div class="wrapper-img">
+        <img [src]="image.thumb" (click)="open(i)" />
+      </div>
+    </div>
+  </section>
+  <div></div>
+</div>

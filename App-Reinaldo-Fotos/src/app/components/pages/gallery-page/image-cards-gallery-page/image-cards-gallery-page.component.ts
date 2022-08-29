@@ -17,9 +17,10 @@ export class ImageCardsGalleryPageComponent implements OnInit {
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-box160-glr.jpg',
-      title: 'Cross Fit - Box 160',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-mani-genocida-glr.jpg',
+      title: 'Manifestação - 19J Santos',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/mani19j',
     },
     {
       image:
@@ -53,8 +54,8 @@ export class ImageCardsGalleryPageComponent implements OnInit {
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-mani-genocida-glr.jpg',
-      title: 'Manifestação - 19J Santos',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-box160-glr.jpg',
+      title: 'Cross Fit - Box 160',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
     },
     {

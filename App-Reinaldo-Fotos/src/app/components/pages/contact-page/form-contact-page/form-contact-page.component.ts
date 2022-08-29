@@ -18,9 +18,9 @@ export class FormContactPageComponent implements OnInit {
       name: new FormControl(),
       email: new FormControl(),
       phone: new FormControl(),
-      dateEvent: new FormControl(),
-      qntPersons: new FormControl(),
-      qntHours: new FormControl(),
+      dateevent: new FormControl(),
+      guests: new FormControl(),
+      time: new FormControl(),
       ambient: new FormControl(),
 
       obs: new FormControl(),
