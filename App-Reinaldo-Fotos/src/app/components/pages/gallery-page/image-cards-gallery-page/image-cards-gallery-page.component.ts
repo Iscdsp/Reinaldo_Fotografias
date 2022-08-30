@@ -10,10 +10,10 @@ export class ImageCardsGalleryPageComponent implements OnInit {
   gallerys: Gallery[] = [
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-billy2-glr.jpg',
-      title: 'Billy e Gabi',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image11.jpg',
+      title: 'Album1',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-      router_link: '/billyandgaby',
+      router_link: '/album1',
     },
     {
       image:
