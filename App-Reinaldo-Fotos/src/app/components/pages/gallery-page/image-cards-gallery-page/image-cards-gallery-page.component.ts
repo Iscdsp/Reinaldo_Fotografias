@@ -17,88 +17,66 @@ export class ImageCardsGalleryPageComponent implements OnInit {
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-mani-genocida-glr.jpg',
-      title: 'Manifestação - 19J Santos',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image12.jpg',
+      title: 'Album2',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-      router_link: '/mani19j',
+      router_link: '/album2',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-campFem--glr.jpg',
-      title: 'Brasileirão feminino  - Corinthians x Santos',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image13.jpg',
+      title: 'Album3',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album3',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-campmasc-glr.jpg',
-      title: 'Brasileirão 2021  Santos e RB Bragantino',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image14.jpg',
+      title: 'Album4',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album4',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-casa67-glr.jpg',
-      title: 'Studio - Casa 67',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image15.jpg',
+      title: 'Album5',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album5',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-ctc--glr.jpg',
-      title: 'Centro de Treinamento Cobra - SEM MALDADE',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image16.jpg',
+      title: 'Album6',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album6',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-mani-foraB-glr.jpg',
-      title: 'Manifestação - 3J Santos',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image17.jpg',
+      title: 'Album7',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album7',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-box160-glr.jpg',
-      title: 'Cross Fit - Box 160',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image18.jpg',
+      title: 'Album8',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album8',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-mani-glr.jpg',
-      title: 'Manifestação - 29M Santos',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image19.jpg',
+      title: 'Album9',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album9',
     },
     {
       image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-padreA-glr.jpg',
-      title: 'Padre Anchieta F. C.',
+        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-image100.jpg',
+      title: 'Album10',
       text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-    },
-    {
-      image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-pagode-glr.jpg',
-      title: 'Pagode junior',
-      text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-    },
-    {
-      image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-phantom-glr.jpg',
-      title: 'Phantom Billy',
-      text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-    },
-    {
-      image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-pulsar-glr.jpg',
-      title: 'Festival - Pulsar Festival',
-      text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-    },
-    {
-      image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-skate-glr.jpg',
-      title: 'Praça Palmares',
-      text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
-    },
-    {
-      image:
-        '../../../../../assets/imgs/gallery/img-galeria-thumbs/thumb-volta-glr.jpg',
-      title: 'XIX Volta Santo Amaro - Santos',
-      text: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour',
+      router_link: '/album10',
     },
   ];
   constructor() {}

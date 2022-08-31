@@ -10,9 +10,9 @@ export class SliderImagesComponent implements OnInit {
   ngOnInit(): void {}
 
   slides = [
-    { img: 'https://live.staticflickr.com/65535/51180497405_eec1934005_k.jpg' },
-    { img: 'https://live.staticflickr.com/65535/51180194254_576153d64d_k.jpg' },
-    { img: 'https://live.staticflickr.com/65535/50994828532_38e79a5408_k.jpg' },
+    { img: '../../../../../assets/imgs/gallery/album5/image4.jpg' },
+    { img: '../../../../../assets/imgs/gallery/album4/image5.jpg' },
+    { img: '../../../../../assets/imgs/gallery/album10/image3.jpg' },
   ];
 
   slideConfig = {

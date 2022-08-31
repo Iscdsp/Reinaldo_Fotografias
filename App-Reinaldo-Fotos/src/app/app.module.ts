@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
-
+import {
+  HttpClient,
+  HttpClientModule,
+  HttpHandler,
+} from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -34,9 +38,19 @@ import { TitleGalleryPageComponent } from './components/pages/gallery-page/title
 import { ImageCardsGalleryPageComponent } from './components/pages/gallery-page/image-cards-gallery-page/image-cards-gallery-page.component';
 import { BottomTextComponent } from './components/pages/gallery-page/bottom-text/bottom-text.component';
 import { TitleContactPageComponent } from './components/pages/contact-page/title-contact-page/title-contact-page.component';
-
+import { FormService } from './Services/form.service';
 import { Lightbox, LightboxModule } from 'ngx-lightbox';
 import { Album1Component } from './components/pages/gallery-page/albums-pages/album1/album1.component';
+
+import { Album3Component } from './components/pages/gallery-page/albums-pages/album3/album3.component';
+import { Album4Component } from './components/pages/gallery-page/albums-pages/album4/album4.component';
+import { Album5Component } from './components/pages/gallery-page/albums-pages/album5/album5.component';
+import { Album6Component } from './components/pages/gallery-page/albums-pages/album6/album6.component';
+import { Album7Component } from './components/pages/gallery-page/albums-pages/album7/album7.component';
+import { Album8Component } from './components/pages/gallery-page/albums-pages/album8/album8.component';
+import { Album9Component } from './components/pages/gallery-page/albums-pages/album9/album9.component';
+import { Album10Component } from './components/pages/gallery-page/albums-pages/album10/album10.component';
+import { Album2Component } from './components/pages/gallery-page/albums-pages/album2/album2.component';
 
 @NgModule({
   declarations: [
@@ -71,6 +85,15 @@ import { Album1Component } from './components/pages/gallery-page/albums-pages/al
     TitleContactPageComponent,
     FormContactPageComponent,
     SocialMediasComponent,
+    Album2Component,
+    Album3Component,
+    Album4Component,
+    Album5Component,
+    Album6Component,
+    Album7Component,
+    Album8Component,
+    Album9Component,
+    Album10Component,
   ],
   imports: [
     LightboxModule,
@@ -79,8 +102,9 @@ import { Album1Component } from './components/pages/gallery-page/albums-pages/al
     SlickCarouselModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [HttpClient, FormService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
